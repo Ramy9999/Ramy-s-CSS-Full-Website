@@ -33,12 +33,14 @@ body {
 .cloud-bottom {
   position: absolute;
   left: 250px;
-  bottom: 400px;
+  bottom: 450px;
   border-radius: 40px 10px;
+  
 }
 
 .rainbow-bottom {
   border-radius: 13em/3em;
+
 }
 
 h1 {

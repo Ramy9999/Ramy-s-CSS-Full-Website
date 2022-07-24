@@ -23,6 +23,18 @@
 </head>
 
 <body>
+  <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#academia">Academia</a>
+  <a href="#cv">CV</a>
+  <a href="#contact">Contact</a>
+  <img src="favicon.ico" width="70px"></img>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  </div>	
+	
   <div class="top">
     <img src="images/animated_cloud_2-removebackground.png" class=cloud-top alt="animated cloud image" width="200px" height="100px">
     <h1>I'm Ramy.</h1>
@@ -62,18 +74,18 @@
       </div>
     </div>
     <hr>
-    <button class= "buty mx-auto text-center" onclick="window.location.href='portfolio.html';">Portfolio</button>
+    <div id="portfolio"><button class= "buty mx-auto text-center" onclick="window.location.href='portfolio.html';">Portfolio</button></div>
     <hr>
-    <button class= "academia" onclick="window.location.href='https://independent.academia.edu/RamySalahElsaraf';">Academia <i class="fa fa-university"></i></button>
+    <div id="academia"><button class= "academia" onclick="window.location.href='https://independent.academia.edu/RamySalahElsaraf';">Academia <i class="fa fa-university"></i></button></div>
 	  <hr>
-    <a href="Ramy Salah Elsaraf CV 27.pdf" class="neon">
+    <div id="cv"><a href="Ramy Salah Elsaraf CV 27.pdf" class="neon">
             <span></span>
             <span></span>
             <span></span>
             <span></span>
             CV
-        </a>
-    <div class="contact-me">
+        </a></div>
+    <div class="contact-me" id="contact">
       <h2 class=getintouchheader>Get In Touch</h2>
       <h3 class=getintouchmessage>Thank you Sincerly for visiting my website, and feel free to contact me.</h3>
       <p class=endpar>Looking for an opportunity to become a part of a team where I can broaden my vision and develop my professional skills in the field of Software and/or Computer Engineering, Electrical Engineering, Electronics and/or IT Networks.

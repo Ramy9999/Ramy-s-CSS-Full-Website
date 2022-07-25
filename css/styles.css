@@ -529,7 +529,7 @@ a:hover {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
 .topnav a {display: none;}
 .topnav a.icon {
 float: right;
@@ -537,7 +537,7 @@ display: block;
  }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
 .topnav.responsive {position: relative;}
 .topnav.responsive .icon {
 position: absolute;

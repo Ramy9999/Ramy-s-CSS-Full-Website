@@ -159,6 +159,10 @@ a.active {
 }
 
 
+.bigText {
+  font-size: 2rem;
+}
+
 
 * ===== Scrollbar CSS ===== */
   /* Firefox */

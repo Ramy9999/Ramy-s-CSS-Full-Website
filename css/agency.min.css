@@ -164,6 +164,7 @@ a.active {
 }
 
 .txtAlCenter {
+  margin:auto;
   text-align: center;
 }
 

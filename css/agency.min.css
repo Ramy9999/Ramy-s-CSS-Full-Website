@@ -163,6 +163,10 @@ a.active {
   font-size: 2rem;
 }
 
+.txtAlCenter {
+  text-align: center;
+}
+
 
 * ===== Scrollbar CSS ===== */
   /* Firefox */

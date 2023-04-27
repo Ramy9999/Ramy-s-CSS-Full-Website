@@ -165,8 +165,7 @@ a.active {
 
 .txtAlCenter {
   position: absolute;
-  top: 70px; 
-  right: 10px;
+  text-align: center;
 }
 
 

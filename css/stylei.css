@@ -716,7 +716,8 @@ textarea {
 
 
 .buty, .buty::after {
-  width: 380px;
+  width: 300px;	
+/*   width: 380px; */
   height: 86px;
   font-size: 36px;
   //font-family: 'Courier New', monospace;
